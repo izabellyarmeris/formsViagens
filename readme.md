@@ -12,4 +12,6 @@
 - CSS
 - Bootstrap
 
-(Clique aqui para navegar no projeto)[https://izabellyarmeris.github.io/formularioViagens/login.html] 
+<br>
+
+- [Clique aqui para navegar no projeto](https://izabellyarmeris.github.io/formularioViagens/login.html)
