@@ -16,4 +16,4 @@
 
 ## Links importantes:
 
-- [Clique aqui para navegar no projeto](https://izabellyarmeris.github.io/formularioViagens/login.html)
+- [Clique aqui para navegar no projeto](https://izabellyarmeris.github.io/formsViagens/login.html)
