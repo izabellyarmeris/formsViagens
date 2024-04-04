@@ -1,158 +1,213 @@
 body {
-    background-color:#212E40;
-} 
-
-
-header {
-    background-color: #FFFFFF;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    color: #000000;
-    align-items: center;
-    border-bottom: 1px solid #407BFF;
-    box-shadow: -1px 9px 13px 0px rgba(0,0,0,0.75);
+  background-color: #212e40;
+}
+html {
+  min-width: 14rem;
+  max-width: 100%;
 }
 
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #407bff;
+}
+.bem_vindo_h1 {
+  color: #000000;
+}
 
 header img {
-    width: 200px;
+  width: 150px;
 }
 
 header a {
-    background-color: #E50914;
-    font-size: 20px;
-    color: #FFFFFF;
-    padding: 0.5rem 1rem;
-    border-radius: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 400ms;
-} 
+  background-color: #e50914;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0.5rem 0.4rem;
+  border-radius: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 400ms;
+}
 
 header a:hover {
-    opacity: 0.8;
-    text-decoration: underline;
+  opacity: 0.8;
+  text-decoration: underline;
 }
 
 .carousel {
-    width: 700px;
+  width: 700px;
 }
 
 .carousel-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .carousel img {
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
 }
 
 .carousel-caption {
-    background-color: #000000;
-    border-radius: 15px;
-    padding: 10px;
+  background-color: #000000;
+  border-radius: 15px;
+  padding: 10px;
 }
 
-.carousel h5, p {
-    color: #FFFFFF;
-    font-weight: bold;
+.carousel h5,
+p {
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .card-container {
-    margin: 5rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-container h2 {
-    color: #FFFFFF;
-    margin-bottom: 2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
 }
 
 .cards {
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
 }
 
 .cards img {
-    width: 286.4px;
-    height: 190px;
+  width: 286.4px;
+  height: 190px;
 }
 
 .card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cards p {
-    color: #000000;
+  color: #000000;
 }
 
 .cards a {
-    height: 38px;
-    width: 130px;
-    background-color: #25D366;
-    border: none;
+  height: 38px;
+  width: 130px;
+  background-color: #25d366;
+  border: none;
 }
 
 .cards a:hover {
-    background-color: #407BFF;
+  background-color: #407bff;
 }
 
 footer {
-    display: flex;
-    margin-bottom: 1rem;
+  display: flex;
+  margin-bottom: 1rem;
 }
 
-footer h2, h5 {
-    color: #FFFFFF;
-    margin-bottom: 20px;
+footer h2,
+h5 {
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
-.card-left, .card-right {
-    width: 50%;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.card-left,
+.card-right {
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-left {
-    border-right: 2px solid #407BFF;
+  border-right: 2px solid #407bff;
 }
 
 nav {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 nav ul {
-    width: 80%;
-    display: flex;
-    gap: 5rem;
+  width: 80%;
+  display: flex;
+  gap: 5rem;
 }
 
 ul li {
-    list-style: none;
+  list-style: none;
 }
 
 li a {
-    color: #FFFFFF;
-    font-size: 30px
+  color: #ffffff;
+  font-size: 30px;
 }
 
 li a:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .card-right img {
-    width: 350px;
+  width: 350px;
 }
 
+@media screen and (max-width: 920px) {
+  footer {
+    flex-direction: column;
+  }
+  header {
+    width: 100%;
+  }
+  .carousel {
+    width: 100%;
+  }
+
+  .bem_vindo_h1 {
+    justify-content: center;
+    width: 200px;
+  }
+  html {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
+
+  .bem_vindo_h1 {
+    font-size: 1.5rem;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 407px) {
+  .card img {
+    width: 100%;
+  }
+  .card-left {
+    width: 100%;
+  }
+  header {
+    justify-content: left;
+  }
+  .bem_vindo_h1 {
+    font-size: 1rem;
+    margin: 0;
+  }
+  header img {
+    width: 120px;
+  }
+  .card-container h2 {
+    margin-bottom: 2rem;
+    justify-content: center;
+    width: 240px;
+  }
+}

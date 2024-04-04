@@ -2,11 +2,11 @@
 
 ## Descrição:
 
-- Projeto desenvolvido durante o curso Proprofissão do Instituto Proa. Este projeto é um site de viagens que contém formulário de login/cadastro e uma landing page.
+- Projeto responsivo desenvolvido utilizando tecnologias de front-end. Desenvolvi no meu curso de programação web no Instituto Proa.
 
 <br>
 
-## Tecnologias utilizadas: 
+## Tecnologias utilizadas:
 
 - HTML
 - CSS
