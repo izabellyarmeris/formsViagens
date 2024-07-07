@@ -2,7 +2,7 @@
 
 ## Descrição:
 
-- Projeto responsivo desenvolvido utilizando tecnologias de front-end. Desenvolvi no meu curso de programação web no Instituto Proa.
+- Site responsivo utilizando tecnologias front-end. O "Formulario Viagens" é um projeto com base em sites de viagens.
 
 <br>
 
